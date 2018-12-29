@@ -85,6 +85,30 @@ source $ZSH/oh-my-zsh.sh
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-export PATH=/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/carl/Library/Python/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin
+#Carl's variables
+#export PATH=/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/carl/Library/Python/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin
+
+#alias python=/Users/carl/anaconda/bin/python
+#alias python3=/Users/carl/anaconda/bin/python3
 
 export EDITOR="/usr/local/bin/mate -w"
+#setxkbmap us
+export VISUAL=vim
+export EDITOR="$VISUAL"
+export PATH=$PATH:/Applications/MATLAB_R2016b.app/bin/
+#export BATVOICE_REPO=/Users/carl/Dropbox/Docs/Python/PyCharm/batvoice/engine
+#export BATVOICE_DATA=/Users/carl/Dropbox/Docs/Python/PyCharm/batvoice/engine/data
+
+#export PATH=~/anaconda/bin:$PATH:/Users/carl/Dropbox/Docs/Python/Virtualenv/py27/py27/bin
+export PATH=~/anaconda/bin:$PATH
+
+source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+export PYTHONPATH=$PYTHONPATH:/Users/carl/Dropbox/Docs/Python/PyCharm/ircam/anasynth/_code
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/carl/Dropbox/Docs/Voice Tech Podcast/Software/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/carl/Dropbox/Docs/Voice Tech Podcast/Software/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/carl/Dropbox/Docs/Voice Tech Podcast/Software/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/carl/Dropbox/Docs/Voice Tech Podcast/Software/google-cloud-sdk/completion.zsh.inc'; fi
+PATH=/usr/local/git/bin:$PATH

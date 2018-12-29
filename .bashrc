@@ -17,4 +17,3 @@ setxkbmap us
 export VISUAL=vim
 export EDITOR="$VISUAL"
 export PATH=$PATH:/Applications/MATLAB_R2016b.app/bin/
-

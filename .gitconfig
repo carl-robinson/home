@@ -2,8 +2,9 @@
 	name = Carl
 	email = carl.robinson@gmail.com
 [core]
-	autocrlf = input
+	autocrlf = false
 	safecrlf = true
+	excludesfile = /Users/carl/.gitignore
 [alias]
 	co = checkout
 	ci = commit
